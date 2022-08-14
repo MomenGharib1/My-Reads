@@ -11,7 +11,7 @@ You can try the hosted version here : https://trymyprojects.github.io/
 
 - then head to the directory you want to store the app and run these commands
 ```
-git clone https://github.com/sarah-maris/reactnd-project-myreads.git
+git clone https://github.com/MomenGharib1/My-Reads.git
 npm install
 ```
 - after installing all the depnedencies just type this command
@@ -23,6 +23,7 @@ Now your default browser will open at (http://localhost:3000/) and you wiil see 
 
 - if you want to move a book from one shelf to another click on the green button on the desired book and choose the desired shelf.
 you will notice that the default value for the menu us the current shelf of the book
+
 ![image](https://user-images.githubusercontent.com/94765709/184538396-2ee56a6d-cb0b-4694-8b0d-50356689e0e1.png)
 
 - if you want to search for a specific book just hit the (+) button in the bottom-right corner of the screen and it will navigate you to the search page.
