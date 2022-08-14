@@ -4,29 +4,29 @@
 
 ## How to try the App
 
-### You can try the hosted version here : https://trymyprojects.github.io/
+You can try the hosted version here : https://trymyprojects.github.io/
 
 ## How to install it locally
-- ### this project uses node.js so if you don't have it yet, you can install node.js from here first : [Node.js](https://nodejs.org/en/)
+- this project uses node.js so if you don't have it yet, you can install node.js from here first : [Node.js](https://nodejs.org/en/)
 
-- ### then head to the directory you want to store the app and run these commands
+- then head to the directory you want to store the app and run these commands
 ```
 git clone https://github.com/MomenGharib1/My-Reads.git
 npm install
 ```
-- ### after installing all the depnedencies just type this command
+- after installing all the depnedencies just type this command
 ```
 npm start
 ```
-### Now your default browser will open at (http://localhost:3000/) and you wiil see a home bage similar to this one.
+- Now your default browser will open at (http://localhost:3000/) and you wiil see a home bage similar to this one.
 
 ![image](https://user-images.githubusercontent.com/94765709/184538297-81b6769b-2de6-4ead-b950-a7dc635e807e.png)
 
-- ### if you want to move a book from one shelf to another click on the green button on the desired book and choose the desired shelf, you will notice that the default value for the menu us the current shelf of the book
+- if you want to move a book from one shelf to another click on the green button on the desired book and choose the desired shelf, you will notice that the default value for the menu us the current shelf of the book
 
 ![image](https://user-images.githubusercontent.com/94765709/184538396-2ee56a6d-cb0b-4694-8b0d-50356689e0e1.png)
 
-- ### if you want to search for a specific book just hit the (+) button in the bottom-right corner of the screen and it will navigate you to the search page.
+- if you want to search for a specific book just hit the (+) button in the bottom-right corner of the screen and it will navigate you to the search page.
 
 ![image](https://user-images.githubusercontent.com/94765709/184538480-5e5e63db-d117-45f7-95ee-fe01d7a61497.png)
 
