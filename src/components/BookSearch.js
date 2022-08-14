@@ -13,7 +13,7 @@ const BookSearch = ({ updateShelf, Books }) => {
     setQuery(query);
     if (query !== "" && query !== " ") {
       BooksAPI.search(query.trim(), 20).then((list) => {
-        list.length > 0 ? setResult(list) : setResult([]);
+        list?.length > 0 ? setResult(list) : setResult([]);
       });
     } else if (query.startsWith(" ", 0)) {
       setResult([]);
