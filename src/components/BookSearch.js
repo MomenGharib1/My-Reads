@@ -78,6 +78,7 @@ const BookSearch = ({ updateShelf, Books }) => {
 };
 
 BookSearch.propTypes = {
+  Books: PropTypes.array.isRequired,
   updateShelf: PropTypes.func.isRequired,
 };
 
