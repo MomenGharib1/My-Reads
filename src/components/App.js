@@ -29,7 +29,7 @@ const App = () => {
         path="/"
         element={<HomeLibrary Books={books} updateShelf={doUpdate} />}
       />
-      <Route path="/search" element={<BookSearch updateShelf={doUpdate} />} />
+      <Route path="/search" element={<BookSearch updateShelf={doUpdate} Books={books} />} />
     </Routes>
   );
 };
