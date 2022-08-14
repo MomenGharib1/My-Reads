@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import ShelfUpdater from "./ShelfUpdater";
 import * as BooksAPI from "./BooksAPI";
 
-const BookSearch = ({ updateShelf }) => {
+const BookSearch = ({ updateShelf, Books }) => {
   const [query, setQuery] = useState("");
   const [result, setResult] = useState([]);
 
@@ -21,6 +21,14 @@ const BookSearch = ({ updateShelf }) => {
       setResult([]);
     }
   };
+  
+  for (let i = 0; i < result.length; i++) {
+    for (let j = 0; j < Books.length; j++) {
+      if (result[i].id === Books[j].id) {
+        result[i].shelf = Books[j]?.shelf;
+      } else continue;
+    }
+  }
 
   return (
     <div className="search-books">
